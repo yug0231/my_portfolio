@@ -1,0 +1,31 @@
+
+#navbar{
+    background-color: #1E1E1E;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 42, 0);
+}
+#navbarInner{
+    background-color: #1E1E1E;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.navButton{
+    color: rgb(222, 199, 199);
+    background-color: #1E1E1E;
+    height: 100%;
+    padding: 30%;
+    stroke: none;
+    border: none;
+    font-size: 100%;
+}
+.navButton:hover{
+    background-color: #262626;
+    border-bottom: 1px solid white;
+}
+.navButton:focus{
+    background-color: #262626;
+    border-bottom: 1px solid rgb(255, 42, 0);
+}
