@@ -1,0 +1,61 @@
+.main {
+  margin-top: 4em;
+}
+.designsection {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  margin-top: -10vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-bg);
+  height: 50vh;
+  max-height: 400px;
+}
+
+.designsection > div {
+  width: 11%;
+  height: 16vh;
+  max-height: 140px;
+  box-shadow: var(--shadow);
+  border-radius: 20px;
+  margin: 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
+  border: 2px solid var(--clr-primary);
+}
+.designsection > div:hover {
+  background-color: var(--clr-bg);
+  overflow: hidden;
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: 1px solid var(--clr-primary);
+}
+
+.designsection > div > svg {
+  /* height: 50%;
+  width: 50%; */
+  font-size: 8vh;
+  color: var(--clr-primary);
+}
+.designsection > div > h5 {
+  position: relative;
+  top: 8px;
+  background-color: transparent;
+}
+
+@media (max-width: 600px) {
+  .designsection {
+    height: 120vh;
+  }
+  .designsection > div {
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 18vh;
+  }
+}
