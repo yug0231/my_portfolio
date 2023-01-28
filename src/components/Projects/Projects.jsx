@@ -1,6 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import frankbody from "../../assets/frank-body.png";
+import fatsecret from "../../assets/fatsecret.png";
+import revpro from "../../assets/revpro.png";
+import zomato from "../../assets/zomato.png";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
   SiBlockchaindotcom,
@@ -15,6 +18,7 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiCss3,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -75,17 +79,15 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/MPzWN49/weather-app.png"
-                    alt="Sk-Weather-App"
+                    src={zomato}
+                    alt="Zomato-clone"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>SK Weather App</h2>
+                <h2>Zomato Clone</h2>
                 <p>
-                  Location based weather app. User can also search for their
-                  cities and pickup location from map to see weather data of
-                  respective places.
+                  Team Project executed within 5 days. With Special feature of admin panel.
                 </p>
                 <div>
                   <DiCss3 />
@@ -94,7 +96,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://sk-weather-app.netlify.app/weather-app.html"
+                    href="https://clone-zomato-project.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -103,7 +105,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/Weather-App"
+                    href="https://github.com/Rajatsinha05/Zomato-clone"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -119,33 +121,31 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
+                  <img src={fatsecret} alt="" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>APIJS Mongo</h2>
+                <h2>Fat Secret</h2>
                 <p>
-                  APIJS Mongo is the open source liabrary which helps you to
-                  create backend API's in Node.js just by using simple methods
-                  like connectToMongoDB() & createUserAPI().
+                  Team project in which 5 teammates have contibuted& completed this whole project in timespan of 5 days.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <SiJavascript />
+                  <SiHtml5 />
+                  <SiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
+                    href="https://gentle-kashata-e21372.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      View NPM Package
+                      View Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
+                    href="https://github.com/senCoder12/masai-fatsecret-project"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -163,35 +163,33 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
+                    src={revpro}
                     alt=""
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
+                <h2>Rev.co.in</h2>
                 <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
+                Team Project executed within 5 days. With Special feature of admin panel.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                <DiCss3 />
+                  <SiHtml5 />
+                  <IoLogoJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://drive-system.herokuapp.com/user/"
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                      See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/imbickydutta/file-system-backend"
+                    href="https://github.com/yug0231/revvpro"
                     target="_blank"
                     rel="noreferrer"
                   >
